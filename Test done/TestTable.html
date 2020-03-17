@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title>Creating Tables in HTML</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            text-align: center;
+            background-color:springgreen;
+        }
+        tr:nth-child(even){
+            background-color:slategray;
+        }
+        caption {
+            caption-side: bottom;
+            font-size: x-large;
+            text-align: center;            
+        }
+        
+    </style>
+</head>
+<body>   
+    <h2>HTML Table</h2>
+    <table>
+        <caption>Giant Peng 🐧</caption>
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>펭수</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>EBS 연습생</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>우주대스타</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>HTML Table (Web Accessibility & Spanning Multiple)</h2>
+    <table>
+        <tr>
+            <th scope="col">No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+        </tr>
+        <tr>
+            <th scope="row">1</th>
+            <td>펭수</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>EBS 연습생</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>우주대스타</td>
+            <td>10</td>
+        </tr>
+    </table>
+</body>
+</html>                       

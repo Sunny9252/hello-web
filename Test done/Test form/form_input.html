@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- <html lang='en'>
+    <head>
+        <title>Simple HTML Form 🎈</title>
+        </head>
+        <body>
+            <h3>Sign In</h3>
+            <label>Username: <input type="text" name="username"></label>
+            <label>Password: <input type="password" name="userpass"></label>
+            </form>
+        </body>
+</html>  -->
+
+
+<html lang="en">
+<head>
+<title>HTML5 URL Input Type</title>
+<style>
+    input[type="url"]:valid{
+        outline: 2px solid green;
+    }
+    input[type="url"]:invalid{
+        outline: 2px solid red;
+    }
+</style>
+<script>
+    function getValue() {
+        var url = document.getElementById("myurl").value;
+        alert(url);
+    }
+</script>
+</head>
+<body>
+    <form>
+        <label for="myurl">Enter Website URL:</label>
+        <input type="url" id="myurl" required>
+        <button type="button" onclick="getValue();">Get Value</button>
+    </form>
+    <p><strong>Note</strong>: Enter URL in the form like https://www.google.com</p>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <head>
+    <meta charset='UTF-8'/>
+    <title>Speaker Submission</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <header class='speaker-form-header'>
+      <h1>Speaker Submission</h1>
+      <p><em>Want to speak at our fake conference? Fill out
+        this form.</em></p>
+    </header>
+
+    <div class='form-row'>
+        <label for='full-name'>Name</label>
+        <input id='full-name' name='full-name' type='text'/>
+      </div>
+  </body>
+-->

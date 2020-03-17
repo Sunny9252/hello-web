@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>새창에서 페이지 열기 🐱‍💻</title> 
+        <!-- Google fonts 와 연결 -->
+        <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+        
+        <!-- class 구분하기 -->
+        <style>
+            a.latin {
+                font-family: 'Dosis', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>a태그의 target 속성</h1>
+        <!-- <h2><a class="latin" href="https://miaow-miaow.tistory.com/" target="_blank">blank - 새 창 열기</a></h2>
+        <h2><a class="latin" href="https://miaow-miaow.tistory.com/" target="_self">self - 현재 프레임에서 열기</a></h2> -->
+        <h2><a class="latin" href="https://miaow-miaow.tistory.com/" target="_parent">parent - 부모 프레임에서 열기</a></h2>
+        <h2><a class="latin" href="https://miaow-miaow.tistory.com/" target="_top">top - 가장 상위 프레임에서 열기</a></h2>
+
+        <a href="https://miaow-miaow.tistory.com/" target="_blan">
+            <img src="pop-up.png" alt="pop-up">
+        </a>
+
+        <h2><a href="https://miaow-miaow.tistory.com/" target="myframe">myframe</a></h2>
+        <iframe name="myframe" style="width:50%; height: 330px"></iframe>
+
+    </body>
+</html>

@@ -1,0 +1,112 @@
+Block 부분
+h1, p {
+    background-color: #DDE0E3;  
+  }
+
+/* Inline 부분 */
+em, strong {
+    background-color: #B2D6FF;    
+  }
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  
+  width: 200px;
+}
+
+#div1{box-sizing: content-box;}
+#div2{
+  box-sizing: border-box;
+  margin: 20px auto; /* Vertical  Horizontal */
+}
+
+
+
+/* Apply to all four sides */
+#p1{
+  background-color: burlywood;
+  padding: 1em;
+}
+
+/* vertical | horizontal */
+#p2{
+  background-color: darksalmon;
+  padding: 5% 10%;
+}
+
+/* top | horizontal | bottom */
+#p3{
+  background-color: mediumpurple;
+  padding: 1em 2em 2em;
+}
+
+/* top | right | bottom | left */
+#p4{
+  background-color: seagreen;
+  padding: 5px 1em 0 2em;
+}
+
+/* padding에서 퍼센트 사용하기*/
+#p5{
+  background-color: tomato;
+  width: 300px;
+  padding: 10%
+}
+
+#a1{
+  background-color: skyblue;
+  width: 300px;
+  padding: 10%
+}
+
+
+/* h2 {
+  background-color: #DDE0E3;    
+}
+
+#para2 {
+  background-color: #33ADE2;   
+  display: inline; 
+}
+
+#em_pink, #strong_pink {
+  background-color: pink;
+  display: block;
+}
+
+#para3{
+  background-color: aqua;
+  display: inline-block;
+} */
+
+
+/* Apply to all four sides */
+#m1{
+  background-color: burlywood;
+  margin: 1em;
+}
+
+/* vertical | horizontal */
+#m2{
+  background-color: darksalmon;
+  margin: 10% 0;
+}
+
+/* top | horizontal | bottom */
+#m3{
+  background-color: mediumpurple;
+  margin: 10px 50px 20px;
+}
+
+/* top | right | bottom | left */
+#m4{
+  background-color: seagreen;
+  margin: 10px 0 50px 20px;
+}
+
