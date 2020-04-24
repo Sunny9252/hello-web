@@ -8,7 +8,7 @@
 
 // Creating variables
 var name = "Giant Peng";
-var age = 10;
+var age = 1000;
 var icon = "🐱‍👤";
 
 document.write(name);
