@@ -1,0 +1,22 @@
+body {
+    color: #2b3636bb;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+    color: #3f1cdbbb;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+a {
+    /* underlines */
+    text-decoration: none; 
+}

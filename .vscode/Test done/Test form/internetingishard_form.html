@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Simple HTML Form 🎈</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <header class='speaker-form-header'>
+      <h1>Simple HTML Form 🎈</h1>
+      <p><em>I wanna make a Form</em></p>
+    </header>
+  </body>
+
+  <div class='form-row'>
+    <label for='full-name'>Name</label>
+    <input id='full-name' name='full-name' type='text'/>
+
+    <label for='Textfield'>Text Field</label>
+    <input id='Textfield' name='Textfield' type='text'/>
+
+    <label for="user-pwd">Password:</label>
+    <input type="password" name="user-password" id="user-pwd" type='text'>
+  </div>
+
+  <div class='form-row'>
+        <label for='email'>Email</label>
+        <input id='email'
+               name='email'
+               type='email'
+               placeholder='sunny@example.com'/>
+      </div>
+
+      
+<!-- radio buttons-->
+      <fieldset class='legacy-form-row'>
+            <legend>Type of Personality</legend>
+            <input id='talk-type-1'
+                   name='talk-type'
+                   type='radio'
+                   value='main-stage' />
+            <label for='talk-type-1' class='radio-label'>Cat</label>
+            <input id='talk-type-2'
+                   name='talk-type'
+                   type='radio'
+                   value='workshop'
+                   checked />
+            <label for='talk-type-2' class='radio-label'>Dog</label>
+          </fieldset>
+
+<!-- select elements (dropdown menus)-->
+<div class='form-row'>
+        <label for='t-shirt'>T-Shirt Size</label>
+        <select id='t-shirt' name='t-shirt'>
+          <option value='xs'>Extra Small</option>
+          <option value='s'>Small</option>
+          <option value='m'>Medium</option>
+          <option value='l'>Large</option>
+        </select>
+      </div>
+
+      <!-- text area -->
+      <div class='form-row'>
+            <label for='abstract'>Text Area</label>
+            <textarea id='abstract' name='abstract'></textarea>
+            <div class='instructions'>Describe your talk in 500 words or less</div>
+          </div>
+
+
+          <!-- checkboxes -->
+          <div class='form-row'>
+                <label class='checkbox-label' for='available'>
+                <input id='available'
+                       name='available'
+                       type='checkbox'
+                       value='is-available'/>
+                <span>나는 로봇이 아니다 냥장판이다 🐱‍👤</span>
+                </label>
+              </div>
+
+              <!-- submit buttons -->
+              <div class='form-row'>
+                    <button>Submit</button>
+                  </div>
+
+
+                  <!-- select file -->
+                  <form>
+                        <label for="file-select">🐱‍👤 Upload:</label>
+                        <input type="file" name="upload" id="file-select">
+                    </form>
+
+</html>

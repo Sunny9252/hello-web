@@ -1,0 +1,32 @@
+/* #b_img1{
+    width: 400px;
+    background-color: #ffa;
+    border: 36px solid orange;
+    border-image-source: url("https://image.flaticon.com/icons/svg/1202/1202077.svg");
+  } */
+
+#b_img1{
+    width: 400px;
+    background-color: #ffa;
+    border: 36px solid orange;
+    border-image-source: url(./flag_border.png);
+}
+  
+#b_img2{
+    width: 400px;
+    background-color: #ffa;
+    border: 36px solid orange;
+    border-image-source: url(./flag_border.png);
+    border-image-slice: 50% 50% 50% 50%;
+}
+
+#b_img3{
+    width: 400px;
+    height: 100px;
+    background-color: #ffa;
+    border: 36px solid orange;
+    border-image-source: url(./flag_border3by3.png);
+    border-image-slice: 33% 33% 33% 33% fill;
+    border-image-repeat: round round;
+}
+
