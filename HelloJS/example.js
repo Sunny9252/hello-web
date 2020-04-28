@@ -1,11 +1,16 @@
-var a = 10;
-var f = "10";
 
-result = a == f;
-document.write(result, "<br>");
+var myString = "first line\nsecond line\nthird line";
 
-result = f === "10";
-document.write(result, "<br>");
+document.write(myString, "<br>");
+
+// var a = 10;
+// var f = "10";
+
+// result = a == f;
+// document.write(result, "<br>");
+
+// result = f === "10";
+// document.write(result, "<br>");
 
 // var str = "<table border='1'>";
 // str += "<tr>";
@@ -28,7 +33,7 @@ document.write(result, "<br>");
 // var tag2 = "<p> paragraph </p>";
 // var s = "javascript";
 // var s1 = "is";
-// var s2 = "not that difficult";
+// var s2 = "not that difficult";3
 
 // var com = s + s1 + s2;
 // document.write(tag, "<br>");
