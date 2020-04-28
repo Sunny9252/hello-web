@@ -1,7 +1,15 @@
+var colors = ['red', 'blue'];
+document.write(colors.length, "<br>");
 
-var myString = "first line\nsecond line\nthird line";
+colors.push('green');
+document.write(colors.length, "<br>");
 
-document.write(myString, "<br>");
+
+/* 줄바꿈 */
+// var myString = "first line\nsecond line\n\t 😀third line";
+// var myString2 = "first line <br> 🐱‍👤second line"
+// document.write(myString, "<br>");
+// document.write(myString2, "<br>");
 
 // var a = 10;
 // var f = "10";
